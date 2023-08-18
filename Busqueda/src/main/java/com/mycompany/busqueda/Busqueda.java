@@ -37,10 +37,12 @@ public class Busqueda {
                 for (int j = i + 1; j < numeros.length; j++){
                     if(numeros[i]< numeros[j]){
                         int temp = numeros[i];
-                        
+                        numeros[i] = numeros[j];
+                        numeros[j] = temp;
                     }
                 }
             }
+            System.out.println("\n\tMAYOR A MENOR \n Numeros: "+Arrays.toString(numeros));
         }
     }
 }
