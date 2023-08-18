@@ -1,16 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.busqueda;
 
-/**
- *
- * @author Alumno
- */
+import java.util.Scanner;
+
 public class Busqueda {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        System.out.println("\t Algoritmo de ordenamiento de numeros \n");
+        Scanner v = new Scanner(System.in);
+        int n1,n2,n3,n4,n5;
+        
+    }
+        
+        
     }
 }
