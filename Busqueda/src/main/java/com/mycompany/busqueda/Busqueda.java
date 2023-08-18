@@ -33,7 +33,14 @@ public class Busqueda {
             System.out.println("\t MENOR A MAYOR \n Numeros: "+ Arrays.toString(numeros));
         }
         else if(op == 2){
-            
+            for (int i = 0; i < numeros.length -1; i++){
+                for (int j = i + 1; j < numeros.length; j++){
+                    if(numeros[i]< numeros[j]){
+                        int temp = numeros[i];
+                        
+                    }
+                }
+            }
         }
     }
 }
